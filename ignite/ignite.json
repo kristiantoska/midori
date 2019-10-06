@@ -1,0 +1,8 @@
+{
+  "createdWith": "",
+  "generators": {
+    "container": "ignite-rn-boilerplate",
+    "component": "ignite-rn-boilerplate",
+    "redux": "ignite-rn-boilerplate"
+  }
+}
