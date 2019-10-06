@@ -1,8 +1,10 @@
 {
-  "createdWith": "",
+  "createdWith": "3.1.1",
   "generators": {
     "container": "ignite-rn-boilerplate",
     "component": "ignite-rn-boilerplate",
     "redux": "ignite-rn-boilerplate"
-  }
+  },
+  "boilerplate": "ignite-rn-boilerplate",
+  "boilerplateVersion": "0.0.1"
 }

@@ -22,15 +22,17 @@
     "android:shake": "$ANDROID_HOME/platform-tools/adb devices | grep '\\t' | awk '{print $1}' | sed 's/\\s//g' | xargs -I {} $ANDROID_HOME/platform-tools/adb -s {} shell input keyevent 82"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "prop-types": "^15.6.1",
     "react": "16.9.0",
     "react-native": "0.61.2",
-    "react-navigation": "^2.0.1",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.9.3",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
     "redux-saga": "^1.0.0-beta.1",
-    "reduxsauce": "^1.0.0"
+    "reduxsauce": "^1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -49,10 +51,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "rnpm": {
-    "assets": [
-      "src/assets/fonts"
-    ]
   }
 }
